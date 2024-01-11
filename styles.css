@@ -1,0 +1,34 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+    border-radius: 82px;
+    width: 150px;
+}
+
+.avatar:hover{
+    width: 200px;
+    border-radius: 108px;
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+    background-color: #8d99ae;
+    color: #2b2839;
+    border-bottom: 8px solid #2b2d42;
+    animation-name: card;
+    animation-duration: 20s;
+
+}
+
+@keyframes card{
+    from {background-color: #8d99ae;}
+    to {background-color: #edf2f4; }
+}
